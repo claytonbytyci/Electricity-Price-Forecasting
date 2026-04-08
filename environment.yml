@@ -1,0 +1,16 @@
+name: ensemble
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - ipykernel
+  - statsmodels
+  - jupyterlab
+  - matplotlib
+  - pip
+  - pip:
+      - optuna

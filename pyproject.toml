@@ -1,0 +1,40 @@
+[project]
+name = "ensemble-forecasting"
+version = "0.1.0"
+description = "Online learning methods for ensemble forecasting with conservative, theory-driven regularization."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Your Name" }
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "xlrd",
+  "scipy",
+  "scikit-learn",
+  "statsmodels",
+  "optuna",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "ruff",
+  "black",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.black]
+line-length = 100
