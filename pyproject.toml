@@ -16,6 +16,8 @@ dependencies = [
   "scikit-learn",
   "statsmodels",
   "optuna",
+  "matplotlib",
+  "seaborn",
 ]
 
 [project.optional-dependencies]
@@ -23,7 +25,12 @@ dev = [
   "pytest",
   "ruff",
   "black",
+  "jupyterlab",
+  "ipykernel",
 ]
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [build-system]
 requires = ["setuptools>=68", "wheel"]

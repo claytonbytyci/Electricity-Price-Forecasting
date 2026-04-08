@@ -1,4 +1,4 @@
-name: ensemble
+name: electricity
 channels:
   - conda-forge
 dependencies:
