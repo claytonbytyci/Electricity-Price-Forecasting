@@ -1,0 +1,137 @@
+% ****** D300 Causal Inference and Machine Learning Project ******
+%
+%  Compile sequence:
+%    1) pdflatex d300_project.tex
+%    2) bibtex   d300_project
+%    3) pdflatex d300_project.tex
+%    4) pdflatex d300_project.tex
+%
+
+\documentclass[%
+ reprint,
+ amsmath,amssymb,
+ aps,
+]{revtex4-2}
+
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage[table]{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{array}
+\usepackage{tabularray}
+\usepackage{xcolor}
+\definecolor{darkred}{rgb}{0.7,0,0}
+\definecolor{mygreen}{rgb}{0,0.5,0}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage[a4paper,margin=0.55in]{geometry}
+\usepackage{setspace}
+\usepackage{rotating}
+\usepackage{afterpage}
+\usepackage{subcaption}
+\singlespacing
+
+% ---- convenience macros ----
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Cov}{\mathrm{Cov}}
+\newcommand{\plim}{\operatorname{plim}}
+\newcommand{\indep}{\perp\!\!\!\perp}
+\newcommand{\hatm}{\hat{m}}
+\newcommand{\hatg}{\hat{g}}
+\newcommand{\hatr}{\hat{r}}
+\newcommand{\hattau}{\hat{\tau}}
+\newcommand{\tautrue}{\tau_0}
+\newcommand{\vtilde}{\tilde{v}}
+
+\begin{document}
+
+\preprint{APS/123-QED}
+
+\title{Econometrics Games 2026: Electricity DK1 Forecasting}% Force line breaks with \\
+%\thanks{ECM12}%
+
+\author{Drishti Angra}
+\author{Clayton Aaron Bytyci}
+\author{David Chen}
+\author{Cai Parry-Jones}
+\altaffiliation[All from the ]{Faculty of Economics, University of Cambridge.}%Lines break automatically or can be forced with \\
+
+%\date{\today}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\begin{abstract} 
+\begin{description}
+\item[Keywords]
+Energy \& Electricity Markets; LSTM Neural Networks; SARIMAX Forecasting
+\end{description}
+\end{abstract}
+
+\maketitle
+
+%----------------------------------------------------------------------
+\section*{Abstract}
+%----------------------------------------------------------------------
+\textit{%
+We construct hourly day-ahead forecasts for the 1st week of 2024 and an average hourly day-ahead forecast for all the weeks of 2024 using parametric methods and a LSTM neural network. We find that an ensemble over our models, which exploits their respective strengths, proves to be superior in generating reliable forecasts.
+}
+
+%----------------------------------------------------------------------
+\section{Introduction}\label{Intro}
+%----------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------
+\section{Literature Review}\label{Lit}
+%----------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------
+\section{Theoretical Framework}\label{Theory}
+%----------------------------------------------------------------------
+
+%----------------------------------------------------------------------
+\section{Data}\label{Data}
+%----------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------
+\section{Methodology}\label{Method}
+%----------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------
+\section{Results}\label{Result}
+%----------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------
+\section{Implications \& Conclusions}\label{Concl}
+%----------------------------------------------------------------------
+
+
+
+%\begin{acknowledgments}
+%I wish to acknowledge the support of my college director of studies, Toke Aidt.
+%\end{acknowledgments}
+
+% The \nocite command causes all entries in a bibliography to be printed out
+% whether or not they are actually referenced in the text. This is appropriate
+% for the sample file to show the different styles of references, but authors
+% most likely will not want to use it.
+
+%----------------------------------------------------------------------
+%\appendix
+%----------------------------------------------------------------------
+
+
+\nocite{*}
+
+\bibliography{eg2026}% Produces the bibliography via BibTeX.
+
+\end{document}
+% ****** End of file d300_project.tex ******

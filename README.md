@@ -1,6 +1,6 @@
 # DK1 Electricity Price Forecasting
 
-Ensemble forecasting methods for DK1 (West Denmark) day-ahead electricity prices, with a focus on online learning and theory-driven regularization.
+Forecasting methods for DK1 (West Denmark) day-ahead electricity prices.
 
 ## Data
 
