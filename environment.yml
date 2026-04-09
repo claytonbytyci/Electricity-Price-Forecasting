@@ -7,10 +7,13 @@ dependencies:
   - pandas
   - scipy
   - scikit-learn
+  - tensorflow
   - ipykernel
   - statsmodels
   - jupyterlab
   - matplotlib
+  - seaborn
   - pip
   - pip:
       - optuna
+      - arch
