@@ -16,6 +16,7 @@ dependencies = [
   "scikit-learn",
   "statsmodels",
   "optuna",
+  "linearmodels",
   "matplotlib",
   "seaborn",
 ]
